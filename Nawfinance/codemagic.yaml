@@ -1,0 +1,18 @@
+workflows:
+  react-native-expo-android:
+    name: React Native Expo Android Build
+    environment:
+      node: 20
+      npm: 8
+      expo:
+        cli: latest
+    scripts:
+      - name: Instalar dependências
+        script: |
+          npm install
+          npm install -g eas-cli
+      - name: Build APK com EAS
+        script: |
+          eas build --platform android --local --output ./app-release.apk
+    artifacts:
+      - app-release.apk
