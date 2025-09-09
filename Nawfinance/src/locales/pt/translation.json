@@ -1,0 +1,176 @@
+{
+  "onboarding": {
+    "welcome": "Bem-vindo!",
+    "subtitle": "Vamos configurar seu aplicativo de carteira",
+    "description": "Bem-vindo ao seu novo aplicativo de carteira! Esta configuração rápida irá ajudá-lo a começar.",
+    "features": {
+      "track": "Rastrear receitas e despesas",
+      "analytics": "Ver análises e gráficos",
+      "sync": "Sincronizar com Google Sheets",
+      "customize": "Personalizar configurações"
+    },
+    "next": "Próximo",
+    "previous": "Anterior",
+    "getStarted": "Começar",
+    "step": "Passo {{current}} de {{total}}"
+  },
+  "appConfig": {
+    "title": "Configuração do Aplicativo",
+    "subtitle": "Personalize o nome do seu aplicativo e configurações de moeda",
+    "description": "Dê um toque pessoal ao seu aplicativo personalizando seu nome e selecionando sua moeda e localização preferidas.",
+    "appName": "Nome do Aplicativo",
+    "currency": "Moeda",
+    "locale": "Localização",
+    "localeDescription": "Escolha uma moeda primeiro para ver as localizações disponíveis",
+    "formatDescription": "Sua moeda e localização determinam como os valores são exibidos e formatados em todo o aplicativo."
+  },
+  "apiConfig": {
+    "title": "Configuração da API",
+    "subtitle": "Conecte ao seu backend do Google Sheets",
+    "description": "Conecte seu aplicativo ao Google Sheets fornecendo a URL de implantação do seu Apps Script.",
+    "howToTitle": "Como obter sua URL do Apps Script:",
+    "howToSteps": {
+      "deploy": "Implante seu Google Apps Script como um aplicativo web",
+      "copy": "Copie a URL de implantação",
+      "paste": "Cole abaixo"
+    },
+    "urlLabel": "URL do Google Apps Script",
+    "urlPlaceholder": "https://script.google.com/macros/s/SEU_ID/exec",
+    "testConnection": "Testar Conexão",
+    "connected": "Conectado",
+    "securityNote": "Seu endpoint da API será armazenado com segurança em seu dispositivo"
+  },
+  "completion": {
+    "title": "Tudo Pronto!",
+    "subtitle": "Seu aplicativo está pronto para usar",
+    "congratulations": "Parabéns!",
+    "description": "Seu aplicativo de carteira agora está configurado e pronto para usar. Você sempre pode alterar essas configurações mais tarde.",
+    "summaryTitle": "Resumo da Configuração:",
+    "appName": "Nome do Aplicativo: {{name}}",
+    "currency": "Moeda: {{currency}}",
+    "locale": "Localização: {{locale}}",
+    "api": "API: ✓ Conectado"
+  },
+  "home": {
+    "title": "{{appName}}",
+    "welcome": "Bem-vindo!",
+    "welcomeDescription": "Seu aplicativo agora está configurado e pronto para usar. Comece adicionando sua primeira transação!",
+    "gotIt": "Entendi",
+    "totalBalance": "Saldo Total",
+    "addIncome": "Adicionar Receita",
+    "addExpense": "Adicionar Despesa",
+    "recentTransactions": "Transações Recentes",
+    "viewAll": "Ver Todas"
+  },
+  "analytics": {
+    "title": "Análises",
+    "thisMonth": "Este Mês",
+    "income": "Receita",
+    "expense": "Despesa",
+    "expenses": "Despesas",
+    "balance": "Saldo",
+    "categoryWise": "Por Categoria",
+    "incomeVsExpense": "Análise de Receita vs Despesa",
+    "categories": {
+      "billsUtilities": "Contas e Utilidades",
+      "entertainment": "Entretenimento",
+      "education": "Educação",
+      "foodDining": "Alimentação",
+      "healthcare": "Saúde",
+      "shopping": "Compras"
+    }
+  },
+  "settings": {
+    "title": "Configurações",
+    "subtitle": "Personalize sua experiência do {{appName}} com configurações personalizadas",
+    "localizationCurrency": "• Localização e Moeda",
+    "customCategories": "• Categorias Personalizadas",
+    "openSettings": "Abrir Configurações",
+    "resetAppConfig": "Redefinir Configuração do Aplicativo",
+    "applicationPreferences": "Preferências do Aplicativo",
+    "applicationPreferencesDescription": "Configuração básica do aplicativo",
+    "adminSettings": "Configurações Administrativas",
+    "adminSettingsDescription": "Configuração administrativa",
+    "customCategoriesTitle": "Categorias Personalizadas",
+    "customCategoriesDescription": "Adicione suas próprias categorias de transação para despesas e receitas",
+    "needHelp": "Precisa de Ajuda?",
+    "needHelpDescription": "Links de referência para códigos de localização e moeda",
+    "preview": "Visualizar",
+    "previewDescription": "Veja como suas configurações ficarão",
+    "resetToDefaults": "Redefinir para Padrões"
+  },
+  "addTransaction": {
+    "title": "Adicionar Item",
+    "date": "Data",
+    "description": "Descrição",
+    "amount": "Valor",
+    "type": "Tipo",
+    "category": "Categoria",
+    "remarks": "Observações",
+    "cancel": "Cancelar",
+    "saveTransaction": "Salvar Transação",
+    "placeholders": {
+      "date": "AAAA-MM-DD",
+      "description": "Digite a descrição",
+      "amount": "0,00",
+      "remarks": "Observações opcionais"
+    },
+    "incomeCategories": {
+      "salary": "Salário",
+      "freelance": "Freelance/Trabalho por Contrato",
+      "rental": "Renda de Aluguel",
+      "investment": "Renda de Investimento",
+      "gifts": "Presentes/Doações",
+      "refunds": "Reembolsos",
+      "other": "Outras Receitas"
+    },
+    "expenseCategories": {
+      "billsUtilities": "Contas e Utilidades",
+      "entertainment": "Entretenimento",
+      "education": "Educação",
+      "foodDining": "Alimentação",
+      "healthcare": "Saúde",
+      "shopping": "Compras",
+      "transport": "Transporte",
+      "personalCare": "Cuidados Pessoais",
+      "other": "Outras Despesas"
+    }
+  },
+  "transactionList": {
+    "title": "Transações",
+    "filter": "Filtrar",
+    "all": "Todas",
+    "income": "Receita",
+    "expense": "Despesa",
+    "noTransactions": "Nenhuma transação encontrada",
+    "addFirst": "Adicione sua primeira transação para começar!"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "close": "Fechar",
+    "ok": "OK",
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "currencies": {
+    "USD": "USD ($)",
+    "EUR": "EUR (€)",
+    "GBP": "GBP (£)",
+    "JPY": "JPY (¥)",
+    "BRL": "BRL (R$)"
+  },
+  "locales": {
+    "en-US": "Inglês (EUA)",
+    "pt-BR": "Português (BR)",
+    "es-ES": "Espanhol (ES)",
+    "fr-FR": "Francês (FR)",
+    "ja-JP": "Japonês (JP)"
+  }
+}
+

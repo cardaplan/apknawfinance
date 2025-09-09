@@ -1,0 +1,176 @@
+{
+  "onboarding": {
+    "welcome": "Welcome!",
+    "subtitle": "Let's set up your wallet app",
+    "description": "Welcome to your new wallet app! This quick setup will help you get started.",
+    "features": {
+      "track": "Track income and expenses",
+      "analytics": "View analytics and charts",
+      "sync": "Sync with Google Sheets",
+      "customize": "Customize settings"
+    },
+    "next": "Next",
+    "previous": "Previous",
+    "getStarted": "Get Started",
+    "step": "Step {{current}} of {{total}}"
+  },
+  "appConfig": {
+    "title": "App Configuration",
+    "subtitle": "Customize your app name and currency settings",
+    "description": "Give your app a personal touch by customizing its name and selecting your preferred currency and locale.",
+    "appName": "App Name",
+    "currency": "Currency",
+    "locale": "Locale",
+    "localeDescription": "Choose a currency first to see available locales",
+    "formatDescription": "Your currency and locale determine how amounts are displayed and formatted throughout the app."
+  },
+  "apiConfig": {
+    "title": "API Configuration",
+    "subtitle": "Connect to your Google Sheets backend",
+    "description": "Connect your app to Google Sheets by providing your Apps Script deployment URL.",
+    "howToTitle": "How to get your Apps Script URL:",
+    "howToSteps": {
+      "deploy": "Deploy your Google Apps Script as a web app",
+      "copy": "Copy the deployment URL",
+      "paste": "Paste it below"
+    },
+    "urlLabel": "Google Apps Script URL",
+    "urlPlaceholder": "https://script.google.com/macros/s/YOUR_ID/exec",
+    "testConnection": "Test Connection",
+    "connected": "Connected",
+    "securityNote": "Your API endpoint will be stored securely on your device"
+  },
+  "completion": {
+    "title": "All Set!",
+    "subtitle": "Your app is ready to use",
+    "congratulations": "Congratulations!",
+    "description": "Your wallet app is now configured and ready to use. You can always change these settings later.",
+    "summaryTitle": "Configuration Summary:",
+    "appName": "App Name: {{name}}",
+    "currency": "Currency: {{currency}}",
+    "locale": "Locale: {{locale}}",
+    "api": "API: ✓ Connected"
+  },
+  "home": {
+    "title": "{{appName}}",
+    "welcome": "Welcome!",
+    "welcomeDescription": "Your app is now configured and ready to use. Start by adding your first transaction!",
+    "gotIt": "Got it",
+    "totalBalance": "Total Balance",
+    "addIncome": "Add Income",
+    "addExpense": "Add Expense",
+    "recentTransactions": "Recent Transactions",
+    "viewAll": "View All"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "thisMonth": "This Month",
+    "income": "Income",
+    "expense": "Expense",
+    "expenses": "Expenses",
+    "balance": "Balance",
+    "categoryWise": "Category Wise",
+    "incomeVsExpense": "Income vs Expense Analysis",
+    "categories": {
+      "billsUtilities": "Bills & Utilities",
+      "entertainment": "Entertainment",
+      "education": "Education",
+      "foodDining": "Food & Dining",
+      "healthcare": "Healthcare",
+      "shopping": "Shopping"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your {{appName}} experience with personalized settings",
+    "localizationCurrency": "• Localization & Currency",
+    "customCategories": "• Custom Categories",
+    "openSettings": "Open Settings",
+    "resetAppConfig": "Reset App Configuration",
+    "applicationPreferences": "Application Preferences",
+    "applicationPreferencesDescription": "Basic app configuration",
+    "adminSettings": "Admin Settings",
+    "adminSettingsDescription": "Administrative configuration",
+    "customCategoriesTitle": "Custom Categories",
+    "customCategoriesDescription": "Add your own transaction categories for both expenses and income",
+    "needHelp": "Need Help?",
+    "needHelpDescription": "Reference links for locale and currency codes",
+    "preview": "Preview",
+    "previewDescription": "See how your settings will look",
+    "resetToDefaults": "Reset to Defaults"
+  },
+  "addTransaction": {
+    "title": "Add Item",
+    "date": "Date",
+    "description": "Description",
+    "amount": "Amount",
+    "type": "Type",
+    "category": "Category",
+    "remarks": "Remarks",
+    "cancel": "Cancel",
+    "saveTransaction": "Save Transaction",
+    "placeholders": {
+      "date": "YYYY-MM-DD",
+      "description": "Enter description",
+      "amount": "0.00",
+      "remarks": "Optional remarks"
+    },
+    "incomeCategories": {
+      "salary": "Salary",
+      "freelance": "Freelance/Contract Work",
+      "rental": "Rental Income",
+      "investment": "Investment Income",
+      "gifts": "Gifts/Grants",
+      "refunds": "Refunds/Reimbursements",
+      "other": "Other Income"
+    },
+    "expenseCategories": {
+      "billsUtilities": "Bills & Utilities",
+      "entertainment": "Entertainment",
+      "education": "Education",
+      "foodDining": "Food & Dining",
+      "healthcare": "Healthcare",
+      "shopping": "Shopping",
+      "transport": "Transportation",
+      "personalCare": "Personal Care",
+      "other": "Other Expenses"
+    }
+  },
+  "transactionList": {
+    "title": "Transactions",
+    "filter": "Filter",
+    "all": "All",
+    "income": "Income",
+    "expense": "Expense",
+    "noTransactions": "No transactions found",
+    "addFirst": "Add your first transaction to get started!"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "currencies": {
+    "USD": "USD ($)",
+    "EUR": "EUR (€)",
+    "GBP": "GBP (£)",
+    "JPY": "JPY (¥)",
+    "BRL": "BRL (R$)"
+  },
+  "locales": {
+    "en-US": "English (US)",
+    "pt-BR": "Portuguese (BR)",
+    "es-ES": "Spanish (ES)",
+    "fr-FR": "French (FR)",
+    "ja-JP": "Japanese (JP)"
+  }
+}
+
